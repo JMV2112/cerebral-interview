@@ -8,6 +8,10 @@ target 'CerebralInterview' do
 
   use_react_native!(:path => config["reactNativePath"])
 
+  pod 'react-native-config', :path => '../node_modules/react-native-config'
+
+  pod 'RNCAsyncStorage', :path => '../node_modules/@react-native-community/async-storage'
+
   target 'CerebralInterviewTests' do
     inherit! :complete
     # Pods for testing

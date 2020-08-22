@@ -57,3 +57,15 @@ buck-out/
 
 # CocoaPods
 /ios/Pods/
+
+
+# misc
+.env*
+
+.vscode
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+*.keystore
